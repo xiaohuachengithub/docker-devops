@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "xiaohuachengithub/trial"
+    registry = "xiaohuachendocker/trial"
     registryCredential = 'dockerhubcred'
   }
   agent any
